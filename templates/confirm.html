@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+{% block title %} Delete {% endblock %}
+{% block body %}
+    <div class="alert alert-danger" role="alert">
+        Are you sure you want to delete {{user.username}} ?
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        <a href="{% url 'all_users' %}">Undo</a>
+        <button type="submit" class="btn btn-danger">Yes</button>
+    </form>
+{% endblock %}
