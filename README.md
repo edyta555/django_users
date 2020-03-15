@@ -1,6 +1,8 @@
-# A Django application using AbstractUser class
+# A Django application using AbstractUser class 
 
 ## Installation
+
+To install the project on Ubuntu 18.04, follow the instructions:
 
 1) Clone the remote repository:
 git clone git@github.com:edyta555/django_users.git
